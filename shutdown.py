@@ -1,7 +1,6 @@
 #! /usr/bin/python
 import subprocess, os, sys, re, time
 
-
 def getAllVms():
     vms = []
     cmd = "vim-cmd vmsvc/getallvms | sed -e '1d' -e 's/ \[.*$//' | awk '$1 ~ /^[0-9]+$/ {print $1}'"
@@ -10,7 +9,6 @@ def getAllVms():
         vms.append(int(re.search(r'\d+', str(vm)).group()))
 
     return vms;
-
 
 def isPowerOnStatus(vm):
     cmd = "vim-cmd vmsvc/power.getstate " + str(vm)
