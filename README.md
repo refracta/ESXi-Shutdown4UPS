@@ -54,6 +54,8 @@ Time required for command file to run: 900 Seconds
 
 ## Reference
 https://github.com/sixdimensionalarray/esxidown
+
 https://github.com/mikejsutherland/esxi-vms-shutdown
+
 https://github.com/matrixlord/ESXi-Shutdown-Check
 
