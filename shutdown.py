@@ -88,11 +88,11 @@ for i in range(1, SHUTDOWN_TRY + 1):
             print("SHUTDOWN WAIT: " + str(SHUTDOWN_WAIT) + "s", flush=True)
             time.sleep(SHUTDOWN_WAIT)
     except:
-        print("SHUTDOWN ERROR")
+        print("SHUTDOWN ERROR", flush=True)
 
 
 if not vms:
-    print("ALL VMS SHUTDOWN SUCCESSFULLY!")
+    print("ALL VMS SHUTDOWN SUCCESSFULLY!", flush=True)
     shutdownServer()
 
 for i in range(1, FORCE_OFF_TRY + 1):
