@@ -46,10 +46,10 @@ shutdown-request.sh → /opt/APC/PowerChuteBusinessEdition/Agent/cmdfiles
 Shutdown Settings - Operating System and Application Shutdown - Choose command file - Select 'shutdown-request.sh'
 
 Setting Example)
-At runtime limit: 1000 Seconds
-Time for operating system to shut down: 100 Seconds
+At runtime limit: 1800 Seconds
+Time for operating system to shut down: 50 Seconds
 Command file: shutdown-request.sh
-Time required for command file to run: 900 Seconds
+Time required for command file to run: 1750 Seconds
 ```
 
 ## Reference
