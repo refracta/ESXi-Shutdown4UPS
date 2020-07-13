@@ -38,7 +38,7 @@ shutdown.sh → /vmfs/volumes/<DATASTORE NAME>/ESXi-Shutdown4UPS
 
 <PowerChute VM>
 shutdown-request.sh → /opt/APC/PowerChuteBusinessEdition/Agent/cmdfiles
-# Default path for PowerChute Business Edition v10.0
+# Default path of PowerChute Business Edition v10.0
 ```
 
 ### 5. Setting up PowerChute Business Edition v10.0
